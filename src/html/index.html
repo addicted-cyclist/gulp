@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Интернет-магазин ноутбуков</title>
+</head>
+<body>
+
+    <div class="shop">
+        <div class="shop__container">
+            <div class="shop__header">
+                <h1 class="shop__title">Ноутбуки</h1>
+                <p class="shop__subtitle">Большой выбор <strong class="shop__accentText">ноутбуков</strong> в наличии. Аксессуары и сумки. Удобный подбор. Низкие цены. Высокое качество.</p>
+            </div>
+
+            <div class="shop__cards">
+                @@loop("chunk/good-card.html", "../../data/goods.json")
+            </div>
+        </div>
+    </div>
+
+    <!-- @@include("chunk/header.html") -->
+
+    <!-- @@include("chunk/footer.html") -->
+
+</body>
+</html>

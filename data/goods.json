@@ -1,0 +1,29 @@
+[
+    {
+        "name": "MacBook Pro 2019",
+        "description": "Оверпрайснутое говно от скупердяистых дебилов для успешных по жизни гигачадов",
+        "price": "80 EUR",
+        "color": "orange"
+    },
+
+    {
+        "name": "Honor Magicbook 2023 R7 7840HS",
+        "description": "Китайский ноут с классным процом, но отвратительными колонками", 
+        "price": "10 EUR",
+        "color": "green"
+    },
+
+    {
+        "name": "HP Pavidlion 2023 I7 6700M",
+        "description": "Ноут с павидлом, ничего другого и не скажешь, павидло начинает вытекать уже через пару лет использования",
+        "price": "35 EUR",
+        "color": "purple"
+    },
+
+    {
+        "name": "Dell XPS 2024 I9 9500",
+        "description": "Power your passions with premium, precision-crafted laptops with innovative features",
+        "price": "35 EUR",
+        "color": "red"
+    }
+]
